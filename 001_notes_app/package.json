@@ -1,0 +1,16 @@
+{
+  "name": "001basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ivalexandru <ivalexandru.1984@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "validator": "^11.1.0",
+    "yargs": "^13.3.0"
+  }
+}
