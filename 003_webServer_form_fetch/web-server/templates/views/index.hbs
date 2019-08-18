@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+
+    <link rel="icon" href="./img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    {{!-- folosesc flexbox pt ca acest div de jos sa ocupe tot spatiul disponibil
+    cu exceptia a ceea ce ii este necesar lui footer --}}
+    <div class="main-content">
+        {{> header }}
+        <p>use this site to get your weather</p>
+
+        {{!-- the default behaviour of forms is to refresh the page on press --}}
+        <form action="">
+            <input placeholder="type location" type="text">
+            <button>Search</button>
+        </form>
+    </div>
+
+    {{> footer}}
+
+    {{!-- pui fisierul js ultimul in body, altfel ruleaza inainte (daca il pui in head) si iei err --}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
